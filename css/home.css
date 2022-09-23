@@ -1,0 +1,54 @@
+body {
+
+    background-color: red;
+}
+
+.container {
+
+    background-color: seagreen;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 3px;
+
+}
+
+
+
+#container-b1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#container-b1-izq{
+    background-color:white ;
+    display: flex; 
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+#container-b1-der {
+   display: flex;
+   justify-content: flex-end;
+  
+   background-color:antiquewhite ;
+   
+}
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
